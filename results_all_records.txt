@@ -1,0 +1,27 @@
+Records processed: 48/48
+Total beats: 112579
+
+Class distribution:
+  A: 2546
+  N: 75033
+  V: 7129
+
+              precision    recall  f1-score   support
+
+           A       0.97      0.80      0.88       509
+           N       0.99      1.00      0.99     15007
+           V       0.97      0.94      0.96      1426
+
+    accuracy                           0.99     16942
+   macro avg       0.98      0.91      0.94     16942
+weighted avg       0.99      0.99      0.99     16942
+
+
+Feature Importances:
+  Std dev: 0.279
+  RR prev: 0.190
+  RR diff: 0.155
+  Min amp: 0.117
+  RR next: 0.100
+  Max amp: 0.099
+  Mean: 0.060

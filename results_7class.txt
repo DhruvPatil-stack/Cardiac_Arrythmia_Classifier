@@ -1,0 +1,39 @@
+ARRHYTHMIA CLASSIFIER — 7 CLASSES, 48 PATIENTS
+Total beats: 112579
+Filtered beats: 101069
+
+Class distribution:
+  A — APB (Atrial Premature Beat): 2546
+  F — Fusion Beat: 802
+  L — Left Bundle Branch Block: 8073
+  N — Normal: 75033
+  R — Right Bundle Branch Block: 7257
+  V — PVC (Premature Ventricular): 7129
+  j — Junctional Escape: 229
+
+              precision    recall  f1-score   support
+
+           A       0.96      0.80      0.87       509
+           F       0.89      0.65      0.75       160
+           L       0.97      0.90      0.94      1615
+           N       0.97      0.99      0.98     15007
+           R       0.98      0.95      0.96      1451
+           V       0.97      0.94      0.95      1426
+           j       0.77      0.22      0.34        46
+
+    accuracy                           0.97     20214
+   macro avg       0.93      0.78      0.83     20214
+weighted avg       0.97      0.97      0.97     20214
+
+
+Feature Importances:
+  RR prev: 0.168
+  Std dev: 0.166
+  Max amp: 0.101
+  RR next: 0.098
+  Min amp: 0.096
+  Peak-trough range: 0.085
+  RR ratio: 0.081
+  Signal variation: 0.080
+  RR diff: 0.065
+  Mean: 0.060

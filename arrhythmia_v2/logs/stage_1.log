@@ -1,0 +1,2 @@
+2026-10-19 NOT RUN Stage 1 did not run because the available Python runtime stalls when importing the required numerical stack.
+2026-10-19 NOT RUN No download attempt was made, so no external database state changed.

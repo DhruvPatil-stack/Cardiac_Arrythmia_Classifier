@@ -1,0 +1,6 @@
+2026-10-19 ERROR Python 3.14 virtual-environment creation could not run ensurepip.
+2026-10-19 INFO Created arrhythmia_v2/.venv and enabled installed system packages.
+2026-10-19 ERROR Package installation found no candidates from the configured package index.
+2026-10-19 ERROR PyWavelets is unavailable. The pipeline includes an internal db4 fallback.
+2026-10-19 ERROR Importing the installed numerical packages stalled under this Python 3.14 runtime.
+2026-10-19 INFO requirements.txt records exact versions from pip metadata where available.
